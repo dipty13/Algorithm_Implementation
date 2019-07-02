@@ -29,13 +29,14 @@ int LIS(int a[],int  n)
 }
 int main()
 {
-    int n,i;
-    cin>>n;
-    int a[n+5];
-    for(i=1;i<=n;i++)
-    {
-        cin>>a[i];
-    }
-    cout<<LIS(a,n)<<endl;
+//    int n,i;
+//    cin>>n;
+//    int a[n+5];
+//    for(i=1;i<=n;i++)
+//    {
+//        cin>>a[i];
+//    }
+    int a[] = {5, 7, 4, -3, 9, 1, 10, 4, 5, 8, 9, 3};
+    cout<<LIS(a,12)<<endl;
     return 0;
 }
